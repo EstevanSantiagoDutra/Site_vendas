@@ -1,26 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Notebook",
+        "name": "Notebook hp",
         "price": 520,
         "image": "images/pexels-pixabay-414917.jpg"
     },
     {
         "id": 2,
-        "name": "Placa de Video",
+        "name": "RTX 2080",
         "price": 220,
         "image": "images/pexels-nana-dua-8622912.jpg"
     },
     {
         "id": 3,
-        "name": "Mouse",
+        "name": "Mouse Kalisto",
         "price": 250,
         "image": "images/pexels-john-petalcurin-2115256.jpg"
     },
     {
         "id": 4,
-        "name": "Teclado",
+        "name": "Teclado Coreplay",
         "price": 420,
         "image": "images/pexels-olena-bohovyk-1772123.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Macbook",
+        "price": 520,
+        "image": "images/pexels-karsten-madsen-18105.jpg"
+    },
+    {
+        "id": 6,
+        "name": "RTX 3070",
+        "price": 220,
+        "image": "images/pexels-the-masked-guy-6974258.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mouse Acer",
+        "price": 250,
+        "image": "images/pexels-matheus-bertelli-19012035.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Teclado FOX",
+        "price": 420,
+        "image": "images/pexels-fox-3829226.jpg"
+    },
+    {
+        "id": 9,
+        "name": "PC Gamer",
+        "price": 520,
+        "image": "images/pexels-洋榤-郭-2399840.jpg"
+    },
+    {
+        "id": 10,
+        "name": "GTX 1080",
+        "price": 220,
+        "image": "images/pexels-nana-dua-4581903.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mouse FOX",
+        "price": 250,
+        "image": "images/pexels-fox-1486294.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Teclado apple",
+        "price": 420,
+        "image": "images/pexels-lumn-399159.jpg"
     }
 ]
