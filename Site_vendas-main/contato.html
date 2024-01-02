@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contato</title>
+</head>
+<header>
+
+    <h1><a href="index.html"><img class="logo" src="img/logonew.jpg" alt="Logo"></h1></a>
+    <nav class="nav">
+        <list>
+            <ul>
+                <li>
+                    <a class="nav_link" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav_link" href="index.html">Contato</a>
+                </li>
+            </ul>
+        </list>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/logocontato.png" alt="Descrição da imagem">
+        </div>
+        <div class="form">
+            <form action="https://formsubmit.co/d063640257eee2ed01eef316a541f882" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Contate-nos</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Numero de contato</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-mensage">
+                        <label for="mensage-legend">Deixe uma mensagem, em breve responderemos</label>
+                        <textarea name="mensage" id="mensage-box" cols="90" rows="10"
+                            placeholder="Diga o motivo do seu contato"></textarea>
+                    </div>
+                </div>
+
+                <input type="hidden" name="_next" value="https://focusonthefuture.github.io/site_empresa/thanks.html">
+
+                <div class="send-button">
+                    <button type="submit" value="Submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+
+        <p class="copyright">© Copyright Estevan Santiago - 2024</p>
+    </footer>
+</body>
+
+</html>

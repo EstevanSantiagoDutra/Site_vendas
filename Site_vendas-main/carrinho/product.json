@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Notebook",
+        "price": 520,
+        "image": "images/pexels-pixabay-414917.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Placa de Video",
+        "price": 220,
+        "image": "images/pexels-nana-dua-8622912.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mouse",
+        "price": 250,
+        "image": "images/pexels-john-petalcurin-2115256.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Teclado",
+        "price": 420,
+        "image": "images/pexels-olena-bohovyk-1772123.jpg"
+    }
+]
