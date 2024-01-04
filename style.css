@@ -266,7 +266,21 @@ h2 {
 
     /* Add styles for screens up to 768px width */
     header {
+        margin-top: 65px;
         padding: 10px 5%;
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: -60px;
+        /* Ajuste conforme necessário */
+        left: 40%;
+        transform: translateX(-50%);
+        width: 100px;
+        /* Ajuste conforme necessário */
+        height: 100px;
+        /* Ajuste conforme necessário */
     }
 
     .Mid {
@@ -310,5 +324,70 @@ h2 {
 
     #Contato {
         padding: 5rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    /* Adicione estilos para telas com largura de 320px ou menos */
+    header {
+        margin-top: 65px;
+        padding: 10px 5%;
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: -60px;
+        /* Ajuste conforme necessário */
+        left: 40%;
+        transform: translateX(-50%);
+        width: 100px;
+        /* Ajuste conforme necessário */
+        height: 100px;
+        /* Ajuste conforme necessário */
+    }
+
+    .Mid {
+        padding: 8rem 0 0 2%;
+    }
+
+    .Container-card-1 {
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .cta {
+        height: auto;
+        padding: 5rem 2%;
+    }
+
+    .text-cta {
+        padding-left: 2%;
+    }
+
+    .Container-placa {
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .Container-placa img:hover {
+        transform: none;
+    }
+
+    .placa img {
+        width: 100%;
+    }
+
+    .Marcas {
+        margin-top: 5rem;
+    }
+
+    #Contato {
+        padding: 2rem;
     }
 }

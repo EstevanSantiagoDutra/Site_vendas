@@ -256,7 +256,7 @@ header .totalQuantity {
 
 .checkoutLayout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 50px;
     padding: 20px;
 }
@@ -270,7 +270,7 @@ header .totalQuantity {
 
 .checkoutLayout .right .form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
     border-bottom: 1px solid #7a7fe2;
     padding-bottom: 20px;
@@ -278,8 +278,8 @@ header .totalQuantity {
 
 .checkoutLayout .form h1,
 .checkoutLayout .form .group:nth-child(-n+3) {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: auto;
+    grid-column-end: auto;
 }
 
 .checkoutLayout .form input,
@@ -387,4 +387,107 @@ header .totalQuantity {
 h2 {
     position: relative;
     text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+    body {
+        font-size: 12px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    header img {
+        width: 30px;
+    }
+
+    nav ul {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    nav {
+        margin-top: 20px;
+        margin-bottom: -70px;
+        max-width: 100%;
+        padding: 38px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        /* Alinhando os itens ao centro */
+        justify-content: center;
+        /* Alinhando os itens ao centro */
+    }
+
+    .nav_link {
+        padding: 10px;
+        display: block;
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 3.5rem;
+        /* Ajuste conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 262px;
+        /* Ajuste conforme necessário */
+        height: 80px;
+        /* Ajuste conforme necessário */
+        border-radius: 10px;
+    }
+
+    .icon {
+        margin: 10px 0;
+    }
+
+    .listProduct .item {
+        margin-bottom: 10px;
+    }
+
+    .listProduct .item button {
+        padding: 10px 15px;
+    }
+
+    .cart {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .cart h2 {
+        font-size: 20px;
+    }
+
+    .cart .listCart .item .quantity {
+        justify-content: center;
+    }
+
+    .checkoutLayout .form h1,
+    .checkoutLayout .form .group:nth-child(-n+3) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+
+    .checkoutLayout .form input,
+    .checkoutLayout .form select {
+        width: calc(100% - 20px);
+    }
+
+    .checkoutLayout .buttonCheckout {
+        width: 100%;
+    }
+
+    .returnCart h1 {
+        font-size: 24px;
+    }
 }
