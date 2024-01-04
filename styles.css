@@ -482,7 +482,7 @@ footer {
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1063px) {
     .form {
         padding: 0;
     }
