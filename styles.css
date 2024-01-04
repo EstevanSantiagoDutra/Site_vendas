@@ -84,7 +84,7 @@ header {
 
 
 nav {
-    width: 940px;
+    width: 439px;
     margin: 0 auto;
     display: flex;
     box-sizing: border-box;
@@ -482,7 +482,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1063px) {
+@media screen and (max-width: 440px) {
     .form {
         padding: 0;
     }
