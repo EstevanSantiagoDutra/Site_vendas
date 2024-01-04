@@ -261,3 +261,54 @@ h2 {
     position: relative;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+
+    /* Add styles for screens up to 768px width */
+    header {
+        padding: 10px 5%;
+    }
+
+    .Mid {
+        padding: 8rem 0 0 5%;
+    }
+
+    .Container-card-1 {
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .cta {
+        height: auto;
+        padding: 5rem 5%;
+    }
+
+    .text-cta {
+        padding-left: 5%;
+    }
+
+    .Container-placa {
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .Container-placa img:hover {
+        transform: none;
+    }
+
+    .placa img {
+        width: 100%;
+    }
+
+    .Marcas {
+        margin-top: 5rem;
+    }
+
+    #Contato {
+        padding: 5rem;
+    }
+}
