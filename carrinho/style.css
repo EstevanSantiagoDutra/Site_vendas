@@ -27,7 +27,7 @@ header img {
 
 header {
     border-radius: 16px;
-    width: 1100px;
+    width: 559px;
     margin: 0 auto;
     background-color: transparent;
 }
@@ -56,7 +56,7 @@ nav {
 
 .logo {
     position: absolute;
-    margin-top: -2.0rem;
+    margin-top: -3rem;
     width: 300px;
     height: auto;
     border-radius: 10px;
